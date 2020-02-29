@@ -3,4 +3,6 @@
 
 PROJET REALISE PAR KAROUIA ALAEDINE ET BIRGER MATHIEU
 
-On a pas d'idée.
+BANG BANG DEADSACHAKAL 2
+
+un rail shooter babylonjs.
