@@ -17,13 +17,18 @@ Arena = function(game) {
     ground.scaling.z = 2;
     ground.material = materialGround;
 
+    var materialBox = new BABYLON.StandardMaterial("boxTexture", scene);
+    materialBox .diffuseTexture = new BABYLON.Texture("assets/stone.jpg", scene);
+    materialBox .diffuseTexture.uScale = 4.0;
+    materialBox .diffuseTexture.vScale = 4.0;
 
-    var materialGround = new BABYLON.StandardMaterial("groundTexture", scene);
+    //var materialGround = new BABYLON.StandardMaterial("groundTexture", scene);
     // SUR TOUS LES AXES Y -> On monte les meshes de la moitié de la hauteur du mesh en question.
     var mainBox = BABYLON.Mesh.CreateBox("box1", 3, scene);
     mainBox.scaling.y = 1;
     mainBox.position = new BABYLON.Vector3(5,((3/2)*mainBox.scaling.y),5);
     mainBox.rotation.y = (Math.PI*45)/180;
+    mainBox.material = materialBox;
 
     var mainBox2 = mainBox.clone("box2");
     mainBox2.scaling.y = 2;
