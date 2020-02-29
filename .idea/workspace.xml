@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec501ab-533d-4d87-bbbf-c1b1f6d2cd3b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/jsbaby/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsbaby/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jsbaby/src/assets/polanski.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jsbaby/src/js/Arena.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsbaby/src/js/Arena.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsbaby/src/js/Player.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsbaby/src/js/Player.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +17,16 @@
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1YU8NRHx9OkcedbziQ9MFrKCwPW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -35,7 +41,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1582985772121</updated>
-      <workItem from="1582985779594" duration="287000" />
+      <workItem from="1582985779594" duration="397000" />
+      <workItem from="1582986217708" duration="1465000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1582985835197</created>
@@ -51,6 +58,7 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
     <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
@@ -59,13 +67,17 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="178" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582985834048" />
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1582985789917">
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1582986218674">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582985789917" />
+    <state x="337" y="165" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1582986218674" />
     <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1582986073570">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="450" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1582986073570" />
+    <state x="297" y="153" key="run.anything.popup" timestamp="1582987011090">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="153" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1582987011090" />
   </component>
 </project>

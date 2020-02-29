@@ -3,8 +3,11 @@ Arena = function(game) {
     this.game = game;
     var scene = game.scene;
 
+
     // Création de notre lumière principale
-    var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(0, 1, 0), scene);
+    var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(0, 10, 0), scene);
+    var light2 = new BABYLON.HemisphericLight("light2", new BABYLON.Vector3(0, -1, 0), scene);
+    light2.intensity = 0.8;
 
 
     var materialGround = new BABYLON.StandardMaterial("groundTexture", scene);
@@ -24,24 +27,43 @@ Arena = function(game) {
 
     //var materialGround = new BABYLON.StandardMaterial("groundTexture", scene);
     // SUR TOUS LES AXES Y -> On monte les meshes de la moitié de la hauteur du mesh en question.
-    var mainBox = BABYLON.Mesh.CreateBox("box1", 3, scene);
-    mainBox.scaling.y = 1;
-    mainBox.position = new BABYLON.Vector3(5,((3/2)*mainBox.scaling.y),5);
-    mainBox.rotation.y = (Math.PI*45)/180;
-    mainBox.material = materialBox;
 
-    var mainBox2 = mainBox.clone("box2");
-    mainBox2.scaling.y = 2;
-    mainBox2.position = new BABYLON.Vector3(5,((3/2)*mainBox2.scaling.y),-5);
+    var polanskiText = new BABYLON.StandardMaterial("groundTexture", scene);
+    polanskiText.diffuseTexture = new BABYLON.Texture("assets/polanski.jpg", scene);
+    polanskiText.diffuseTexture.uScale = 4.0;
+    polanskiText.diffuseTexture.vScale = 4.0;
 
-    var mainBox3 = mainBox.clone("box3");
-    mainBox3.scaling.y = 3;
-    mainBox3.position = new BABYLON.Vector3(-5,((3/2)*mainBox3.scaling.y),-5);
 
-    var mainBox4 = mainBox.clone("box4");
-    mainBox4.scaling.y = 4;
-    mainBox4.position = new BABYLON.Vector3(-5,((3/2)*mainBox4.scaling.y),5);
+    var boxArena = BABYLON.Mesh.CreateBox("box1", 100, scene, false, BABYLON.Mesh.BACKSIDE);
+    boxArena.material = materialGround;
+    boxArena.position.y = 50 * 0.3;
+    boxArena.scaling.y = 0.3;
+    boxArena.scaling.z = 0.8;
+    boxArena.scaling.x = 3.5;
+    boxArena.material = polanskiText;
 
-    var cylinder = BABYLON.Mesh.CreateCylinder("cyl1", 20, 5, 5, 20, 4, scene);
-    cylinder.position.y = 20/2;
+
+    var columns = [];
+    var numberColumn = 6;
+    var sizeArena = 100*boxArena.scaling.x -50;
+    var ratio = ((100/numberColumn)/100) * sizeArena;
+    for (var i = 0; i <= 1; i++) {
+        if(numberColumn>0){
+            columns[i] = [];
+            let mainCylinder = BABYLON.Mesh.CreateCylinder("cyl0-"+i, 30, 5, 5, 20, 4, scene);
+            mainCylinder.position = new BABYLON.Vector3(-sizeArena/2,30/2,-20 + (40 * i));
+            mainCylinder.material = materialBox;
+            columns[i].push(mainCylinder);
+
+            if(numberColumn>1){
+                for (let y = 1; y <= numberColumn - 1; y++) {
+                    let newCylinder = columns[i][0].clone("cyl"+y+"-"+i);
+                    newCylinder.position = new BABYLON.Vector3(-(sizeArena/2) + (ratio*y),30/2,columns[i][0].position.z);
+                    columns[i].push(newCylinder);
+                }
+            }
+        }
+    }
+
+
 };
