@@ -6,7 +6,7 @@ var firerate = 15;
 
 class shoot {
     constructor() {
-        this.img = "image pistolet"
+        this.img = "image pistolet"     ;
         this.nbbullet = 6;
         this.imgBullet = "image de balle"
     }
@@ -26,7 +26,15 @@ class shoot {
             ennmis.die();
 
             
-        }   */
+          */
         
     }
+
+
+    dessinetoi(){
+        if (shootsuccess){
+            
+        }
+    }
+
 }

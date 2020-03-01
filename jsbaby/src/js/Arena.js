@@ -1,11 +1,10 @@
-Arena = function(game) {
+
+    Arena = function(game) {
     // Appel des variables nécessaires
     this.game = game;
     var scene = game.scene;
-
-
     // Création de notre lumière principale
-    var light = new BABYLON.HemisphericLight("light1", new BABYLON.Vector3(0, 10, 0), scene);
+
     var light2 = new BABYLON.HemisphericLight("light2", new BABYLON.Vector3(0, -1, 0), scene);
     light2.intensity = 0.8;
 

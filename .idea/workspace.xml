@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ec501ab-533d-4d87-bbbf-c1b1f6d2cd3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jsbaby/src/js/ennmis.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jsbaby/src/js/shoot.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4ec501ab-533d-4d87-bbbf-c1b1f6d2cd3b" name="Default Changelist" comment="Merge branch 'master' of https://github.com/Alaedinekar/BabylonjsCONCOURS&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/BabylonjsCONCOURS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BabylonjsCONCOURS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsbaby/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsbaby/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsbaby/src/js/Arena.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsbaby/src/js/Arena.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jsbaby/src/js/shoot.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsbaby/src/js/shoot.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +46,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/BabylonjsCONCOURS/jsbaby/src/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -55,8 +70,9 @@
       <option name="presentableId" value="Default" />
       <updated>1582985772121</updated>
       <workItem from="1582985779594" duration="397000" />
-      <workItem from="1582986217708" duration="1894000" />
-      <workItem from="1582990053995" duration="6480000" />
+      <workItem from="1582986217708" duration="1465000" />
+      <workItem from="1582990555183" duration="1855000" />
+      <workItem from="1582993172316" duration="1192000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1582985835197</created>
@@ -71,20 +87,38 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/Alaedinekar/BabylonjsCONCOURS&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/Alaedinekar/BabylonjsCONCOURS&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="WindowStateProjectService">
     <state x="412" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582992916307">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="412" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1582992916307" />
-    <state x="178" y="0" key="CommitChangelistDialog2" timestamp="1582985834048">
+    <state x="178" y="0" key="CommitChangelistDialog2" timestamp="1582998776081">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="178" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582985834048" />
+    <state x="178" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1582998776081" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1582999556629">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1582999556629" />
     <state x="337" y="165" key="com.intellij.ide.util.TipDialog" timestamp="1582990054667">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
