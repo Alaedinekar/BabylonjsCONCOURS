@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ec501ab-533d-4d87-bbbf-c1b1f6d2cd3b" name="Default Changelist" comment="Merge branch 'master' of https://github.com/Alaedinekar/BabylonjsCONCOURS&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/BabylonjsCONCOURS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BabylonjsCONCOURS.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jsbaby/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/jsbaby/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsbaby/src/js/Arena.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsbaby/src/js/Arena.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jsbaby/src/js/shoot.js" beforeDir="false" afterPath="$PROJECT_DIR$/jsbaby/src/js/shoot.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +68,7 @@
       <workItem from="1582986217708" duration="1465000" />
       <workItem from="1582990555183" duration="1855000" />
       <workItem from="1582993172316" duration="1192000" />
+      <workItem from="1583059968949" duration="440000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1582985835197</created>
