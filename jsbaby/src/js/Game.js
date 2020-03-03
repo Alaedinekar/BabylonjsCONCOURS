@@ -16,6 +16,7 @@ Game = function(canvasId) {
     this.scene = this._initScene(engine);
     var _player = new Player(_this, canvas);
     var _arena = new Arena(_this);
+  //  var shoot = shoot(_this);
 
     // Permet au jeu de tourner
     engine.runRenderLoop(function () {

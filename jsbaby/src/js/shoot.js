@@ -1,40 +1,20 @@
-var shootsuccess : boolean = false ;
-var vector;
-var firerate = 15;
-//var dir = // un vecteur( x la pos de la cam, y de la souris , et z grand chiffre)
 
 
-class shoot {
-    constructor() {
-        this.img = "image pistolet"     ;
-        this.nbbullet = 6;
-        this.imgBullet = "image de balle"
+shoot = function (game) {
+    this.scene = game.scene;
+
+var impact = BABYLON.Mesh.CreatePlane("impact", 1, this.scene);
+
+impact.material = new BABYLON.StandardMaterial("impactMat", scene);
+impact.material.diffuseTexture = new BABYLON.Texture("BabylonjsCONCOURS/jsbaby/src/assets/impact.jpg", this.scene);
+impact.material.diffuseTexture.hasAlpha = true;
+impact.position = new BABYLON.Vector3(0, 0, -0.1);
+
+scene.onPointerDown = function (evt, pickResult) {
+    // if the click hits the ground object, we change the impact position
+    if (pickResult.hit) {
+        impact.position.x = pickResult.pickedPoint.x;
+        impact.position.y = pickResult.pickedPoint.y;
     }
-
-
-    update(){
-
-        if (Input.click)
-        tir();
-    }
-
-
-    tir(){
-        //var raycast = new Ray(pos de la camera,dir);
-        /*if (raycast. == ennmis)   {        tester la collision
-            ennmis.hit();
-            ennmis.die();
-
-            
-          */
-        
-    }
-
-
-    dessinetoi(){
-        if (shootsuccess){
-            
-        }
-    }
-
+}
 }
